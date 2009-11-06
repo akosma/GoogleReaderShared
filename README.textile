@@ -1,0 +1,20 @@
+h1. Download and parse "shared" Google Reader items
+
+If you are a user of Google Reader, you might have shared a long list of items over the years. This set of scripts allow you to download all your shared items, and then to convert them into a simple HTML page with links.
+
+You can also modify the script to include the whole contents of the page, too.
+
+h2. Usage
+
+# In the google_reader.sh script, replace the "00017030023266340908" number with your own (otherwise you'll get my own items!). You can find this number if you open the RSS feed link on your own Google Reader items page.
+# Then execute the google_reader.sh script, and you will have a set of HTML pages with your own shared items.
+
+Enjoy!
+
+h2. Requirements
+
+The Ruby script uses the "libxml library":http://libxml.rubyforge.org/ for faster XML processing.
+
+h2. License
+
+This code is in the public domain.
