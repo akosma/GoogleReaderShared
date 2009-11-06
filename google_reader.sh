@@ -17,3 +17,5 @@ for i in 2005 2006 2007 2008 2009; do
     echo Generating HTML files with the titles of the shared articles in ${i}
     ruby parse.rb ${FILENAME} ${i} > shared_${i}.html
 done
+
+echo Done!
